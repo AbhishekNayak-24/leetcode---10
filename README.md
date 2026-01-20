@@ -10,7 +10,7 @@ Code in Java
 nnnnnn
         boolean firstMatch = (!s.isEmpty() &&
                               (s.charAt(0) == p.charAt(0) || p.charAt(0) == '.'));
-
+mmmmm
         if (p.length() >= 2 && p.charAt(1) == '*') {
             return (isMatch(s, p.substring(2)) ||
                     (firstMatch && isMatch(s.substring(1), p)));
