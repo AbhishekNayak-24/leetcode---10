@@ -5,7 +5,7 @@ jjjjjjj
  public class Solution {lllllll
     public boolean isMatch(String s, String p) {
         if (p.isEmpty()) {
-            return s.isEmpty();
+            return s.isEmpty();nnnn
         }mmmm
 nnnnnn
         boolean firstMatch = (!s.isEmpty() &&
