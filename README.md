@@ -7,7 +7,7 @@ Code in Java
         if (p.isEmpty()) {
             return s.isEmpty();nnnn
         }
-nnnnnn
+
         boolean firstMatch = (!s.isEmpty() &&
                               (s.charAt(0) == p.charAt(0) || p.charAt(0) == '.'));
 mmmmm
