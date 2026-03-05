@@ -5,7 +5,7 @@ Code in Java
  public class Solution {
     public boolean isMatch(String s, String p) {
         if (p.isEmpty()) {
-            return s.isEmpty();nnnn
+            return s.isEmpty();nnnnppp
         }nnñn
 
         boolean firstMatch = (!s.isEmpty() &&
