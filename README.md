@@ -13,7 +13,7 @@ Code in Java
 m
         if (p.length() >= 2 && p.charAt(1) == '*') {
             return (isMatch(s, p.substring(2)) ||
-                    (firstMatch && isMatch(s.substring(1), p)));
+                    (firstMatch && isMatch(s.substring(1), p)))
         } else {
             return firstMatch && isMatch(s.substring(1), p.substring(1));
         }
