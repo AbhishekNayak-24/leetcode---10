@@ -12,7 +12,7 @@ Code in Java
                               (s.charAt(0) == p.charAt(0) || p.charAt(0) == '.'));
 m
         if (p.length() >= 2 && p.charAt(1) == '*') {
-            return (isMatch(s, p.substring(2)) ||
+            return (isMatch(s, p.substring(2)) ||k
                     (firstMatch && isMatch(s.substring(1), p)))
         } else {
             return firstMatch && isMatch(s.substring(1), p.substring(1));
