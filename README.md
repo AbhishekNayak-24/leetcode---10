@@ -14,5 +14,4 @@ m
             return (isMatch(s, p.substring(2)) ||k
                     (firstMatch && isMatch(s.substring(1), p)))
         } else {
-            return firstMatch && isMatch(s.substring(1), p.substring(1));
-      
+            return firstMatch && isMatch(s.substring(1), p.substring(1))
